@@ -6,34 +6,37 @@ Weekly submissions for the Web3-Geeks Internship Program.
 
 ```
 Web3-Geeks/
-├── Week1/
-│   ├── Day 1-5 summaries and notebooks
-├── Week2/
-├── Week3/
-└── README.md
+├── Week-1/
+│   ├── Day-1/
+│   ├── Day-2/
+│   ├── Day-3/
+│   ├── Day-4/
+│   └── Day-5/
+├── Week-2/
+│   ├── Day-1/
+│   ├── Day-2/
+│   ├── Day-3/
+│   ├── Day-4/
+│   └── Day-5/
+├── Week-3/
+│   ├── Day-1/
+│   ├── Day-2/
+│   ├── Day-3/
+│   ├── Day-4/
+│   └── Day-5/
+├── Week-4/
+│   ├── Day-1/
+│   ├── Day-2/
+│   ├── Day-3/
+│   ├── Day-4/
+│   └── Day-5/
+├── README.md
+└── ROADMAP_4_WEEKS.md
 ```
-
-## Week 1 — Day 1: ML Foundations
-
-**Dataset:** UCI Adult (Census Income) — Binary classification predicting income >50K/year
-
-### Tasks Completed
-- Problem framing & metric selection (Precision)
-- Data loading & exploratory analysis
-- Reproducible train/dev/test splits
-- Majority-class & rule-based baselines
-- Error analysis (FP/FN patterns)
-
-### Results
-| Model | Accuracy | Precision | Recall | F1 |
-|-------|----------|-----------|--------|-----|
-| Rule-based (education-num ≥ 13) | 75.30% | 48.44% | 49.70% | 49.06% |
-
-**Base Rate:** 23.93%
 
 ## Author
 
-**Fiza Aslam** — AI/ML Engineer | Data Scientist
+**Fiza Aslam** — Web3 Developer | Blockchain Enthusiast
 
 - [GitHub Profile](https://github.com/FizaAslam1)
 - [Repository](https://github.com/FizaAslam1/Web3-Geeks)
