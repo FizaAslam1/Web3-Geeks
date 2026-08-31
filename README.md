@@ -1,59 +1,39 @@
 # Web3-Geeks Internship
 
-This repository contains my weekly submissions for the **Web3-Geeks Internship Program**.
+Weekly submissions for the Web3-Geeks Internship Program.
 
----
+## Repository Structure
 
-## 📂 Repository Structure
+```
 Web3-Geeks/
 ├── Week1/
-│   ├── Day 1 summary.md
-│   ├── week1 day 1.ipynb
-│   ├── Day 2 summary.md
-│   ├── week1 day 2.ipynb
-│   ├── Day 3 summary.md
-│   ├── week1 day 3.ipynb
-│   ├── Day 4 summary.md
-│   ├── week1 day 4.ipynb
-│   ├── Day 5 summary.md
-│   └── week1 day 5.ipynb
+│   ├── Day 1-5 summaries and notebooks
 ├── Week2/
-│   └── ...
 ├── Week3/
-│   └── ...
-├── README.md
----
+└── README.md
+```
 
-## 📝 Week 1 — Day 1: ML Foundations
+## Week 1 — Day 1: ML Foundations
 
-**Dataset:** UCI Adult (Census Income) — predict income >50K/year.
+**Dataset:** UCI Adult (Census Income) — Binary classification predicting income >50K/year
 
-**Tasks Completed:**
-- ✅ Task 1: Problem framing & metric selection (Precision)
-- ✅ Task 2: Data loading & EDA
-- ✅ Task 3: Reproducible train/dev/test splits
-- ✅ Task 4: Majority-class & rule-based baselines
-- ✅ Task 5: Error analysis (FP/FN patterns, feature issues)
+### Tasks Completed
+- Problem framing & metric selection (Precision)
+- Data loading & exploratory analysis
+- Reproducible train/dev/test splits
+- Majority-class & rule-based baselines
+- Error analysis (FP/FN patterns)
 
-**Results:**
-- Base Rate: 23.93%
-- Best Baseline: Rule-based (education-num >= 13)
-  - Accuracy: 75.30%
-  - Precision: 48.44%
-  - Recall: 49.70%
-  - F1: 49.06%
+### Results
+| Model | Accuracy | Precision | Recall | F1 |
+|-------|----------|-----------|--------|-----|
+| Rule-based (education-num ≥ 13) | 75.30% | 48.44% | 49.70% | 49.06% |
 
----
+**Base Rate:** 23.93%
 
-## 🔗 Links
+## Author
 
-- **GitHub Profile:** https://github.com/FizaAslam1
-- **GitHub Repository:** https://github.com/FizaAslam1/Web3-Geeks
+**Fiza Aslam** — AI/ML Engineer | Data Scientist
 
----
-
-## 👩‍💻 Author
-
-**Fiza Aslam**  
-AI/ML Engineer | Data Scientist  
-[GitHub](https://github.com/FizaAslam1)
+- [GitHub Profile](https://github.com/FizaAslam1)
+- [Repository](https://github.com/FizaAslam1/Web3-Geeks)
