@@ -7,25 +7,21 @@ This repository contains my weekly submissions for the **Web3-Geeks Internship P
 ## 📂 Repository Structure
 Web3-Geeks/
 ├── Week1/
-│ ├── Day 1 summary.md
-│ ├── week1 day 1.ipynb
-│ ├── Day 2 summary.md
-│ ├── week1 day 2.ipynb
-│ ├── Day 3 summary.md
-│ ├── week1 day 3.ipynb
-│ ├── Day 4 summary.md
-│ ├── week1 day 4.ipynb
-│ ├── Day 5 summary.md
-│ └── week1 day 5.ipynb
+│   ├── Day 1 summary.md
+│   ├── week1 day 1.ipynb
+│   ├── Day 2 summary.md
+│   ├── week1 day 2.ipynb
+│   ├── Day 3 summary.md
+│   ├── week1 day 3.ipynb
+│   ├── Day 4 summary.md
+│   ├── week1 day 4.ipynb
+│   ├── Day 5 summary.md
+│   └── week1 day 5.ipynb
 ├── Week2/
-│ └── ...
+│   └── ...
 ├── Week3/
-│ └── ...
+│   └── ...
 ├── README.md
-└── .gitignore
-
-text
-
 ---
 
 ## 📝 Week 1 — Day 1: ML Foundations
