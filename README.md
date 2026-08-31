@@ -36,7 +36,7 @@ Web3-Geeks/
 
 ## Author
 
-**Fiza Aslam** — Web3 Developer | Blockchain Enthusiast
+**Fiza Aslam** — AI-ML/Data scientist
 
 - [GitHub Profile](https://github.com/FizaAslam1)
 - [Repository](https://github.com/FizaAslam1/Web3-Geeks)
