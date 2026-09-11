@@ -34,6 +34,10 @@ Web3-Geeks/
 
 ```
 
+## Human Gate (Demo Mode)
+
+Human Gate (Demo Mode): auto-decides based on validation/degraded state for demo purposes; production version would pause via LangGraph's interrupt_before for real human approval.
+
 ## Author
 
 **Fiza Aslam** — AI-ML/Data scientist
