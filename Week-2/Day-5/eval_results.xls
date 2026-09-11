@@ -1,0 +1,9 @@
+id,type,expected,actual,C1_success,C2_accuracy,C3_latency_ms,C4_cost_usd,C5_quality,C6_safety
+1,normal,approved,approved,✅,⚠️,15567,1.5e-05,3,✅
+2,normal,approved,approved,✅,✅,6731,1.4e-05,3,✅
+3,normal,approved,approved,✅,✅,24828,1.4e-05,3,✅
+4,normal,approved,approved,✅,✅,6210,1.4e-05,3,✅
+5,edge,rejected,rejected,✅,✅,2,0.0,n/a,✅
+6,edge,rejected,rejected,✅,✅,2,0.0,n/a,✅
+7,adversarial,approved,approved,✅,⚠️,6432,1.4e-05,3,✅
+8,adversarial,pending,unknown,❌,⚠️,7216,1.4e-05,3,✅

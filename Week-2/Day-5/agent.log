@@ -1,0 +1,2 @@
+{"timestamp": "2026-09-11 20:50:59,345", "level": "INFO", "message": "request_received", "request_id": "01e74af1"}
+{"timestamp": "2026-09-11 20:51:21,479", "level": "INFO", "message": "request_completed", "request_id": "01e74af1", "latency_ms": 22133, "tokens": 200, "tool_calls": ["crm_lookup", "pricing_api", "commit"], "errors": [], "status": "approved"}
