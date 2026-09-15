@@ -1,0 +1,21 @@
+team_name_norm,last5_avg_score,last5_win_rate,last3_win_rate,win_streak,days_rest,h2h_win_rate,venue_win_rate,cum_wins_before_match,ladder_rank_before_match,team_name
+adelaide crows,91.0,0.8,0.6666666666666666,-1,6.0,0.3333333333333333,0.660377358490566,12.0,4.0,Adelaide Crows
+brisbane bears,86.6,0.4,0.3333333333333333,1,7.0,0.5,0.0,4.0,10.0,Brisbane Bears
+brisbane lions,94.8,0.6,1.0,3,8.0,1.0,0.6097560975609756,12.0,1.0,Brisbane Lions
+carlton blues,74.6,0.2,0.0,-4,8.0,0.6666666666666666,0.3823529411764705,0.0,2.0,Carlton Blues
+collingwood magpies,94.2,0.8,0.6666666666666666,1,13.0,0.5,0.5625,9.0,1.0,Collingwood Magpies
+essendon bombers,57.2,0.0,0.0,-7,8.0,0.5,0.5565610859728507,6.0,4.0,Essendon Bombers
+fitzroy lions,86.8,0.4,0.6666666666666666,1,7.0,0.5,0.5,6.0,6.0,Fitzroy Lions
+fremantle dockers,80.8,0.4,0.6666666666666666,1,7.0,0.0,0.5862068965517241,2.0,1.0,Fremantle Dockers
+geelong cats,91.8,0.4,0.0,-3,7.0,0.5,0.6565656565656566,5.0,5.0,Geelong Cats
+gold coast suns,73.2,0.4,0.3333333333333333,-1,7.0,,,3.0,6.0,Gold Coast Suns
+greater western sydney giants,82.4,1.0,1.0,6,6.0,0.3333333333333333,0.0,10.0,3.0,Greater Western Sydney Giants
+hawthorn hawks,62.6,0.2,0.0,-3,6.0,0.5454545454545454,0.5517241379310345,1.0,9.0,Hawthorn Hawks
+melbourne demons,85.2,0.4,0.3333333333333333,-2,6.0,0.6428571428571429,0.4242424242424242,10.0,2.0,Melbourne Demons
+north melbourne kangaroos,74.6,0.2,0.3333333333333333,-2,7.0,0.3333333333333333,0.4916666666666666,1.0,10.0,North Melbourne Kangaroos
+port adelaide power,74.0,0.6,0.6666666666666666,1,6.0,0.5,0.6226415094339622,7.0,1.0,Port Adelaide Power
+richmond tigers,65.2,0.2,0.0,-4,15.0,0.375,0.4038461538461538,3.0,4.0,Richmond Tigers
+st kilda saints,70.8,0.2,0.3333333333333333,-1,8.0,0.8333333333333334,0.5722222222222222,4.0,6.0,St Kilda Saints
+sydney swans,99.4,0.4,0.3333333333333333,-1,7.0,0.5,0.6024390243902439,14.0,1.0,Sydney Swans
+w. bulldogs,77.4,0.2,0.0,-4,8.0,0.375,0.28,1.0,4.0,W. Bulldogs
+west coast eagles,75.0,0.4,0.6666666666666666,2,7.0,0.7777777777777778,0.7777777777777778,12.0,1.0,West Coast Eagles
