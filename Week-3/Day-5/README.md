@@ -6,31 +6,7 @@
 **Week:** 3 | **Day:** 5 (Capstone)  
 **Submission Date:** 18 September 2026
 
----
-## 🚀 Live Demo
 
-**URL:** [https://afl-assistant-fiza.streamlit.app](https://web3-geeks-hl8appmk4y55hslpjsuxeyu.streamlit.app/)
-
-**How to use:**
-1. Open the URL
-2. (Optional) Add your own Groq API key in the sidebar
-   — a default key is provided but may hit rate limits
-3. Type any AFL query (see examples in sidebar)
-4. Get instant predictions, stats, or refusals
-
-**Get a free Groq API key:** https://console.groq.com/key
-## 🚀 Deployment Status
-
-The FastAPI + Streamlit stack runs **locally**:
-- API: `http://127.0.0.1:8000/chat`
-- UI:  `http://localhost:8501`
-
-Cloud deployment was **optional** per the task brief. Screenshots in
-`screenshots/` demonstrate full functionality end-to-end. 
-
-Future deployment plan:
-- FastAPI → Railway / Render
-- Streamlit UI → Streamlit Cloud
 
 
 ## 📌 Executive Summary
@@ -258,7 +234,31 @@ This is a predicted probability, not a certainty.
 **RESPONSE:** "I'm an AFL assistant — I can only help with AFL facts, stats, and match/player predictions. That request is outside my scope."
 
 ## 🎬 Live Demo
+---
+## 🚀 Live Demo
 
+**URL:** [https://afl-assistant-fiza.streamlit.app](https://web3-geeks-hl8appmk4y55hslpjsuxeyu.streamlit.app/)
+
+**How to use:**
+1. Open the URL
+2. (Optional) Add your own Groq API key in the sidebar
+   — a default key is provided but may hit rate limits
+3. Type any AFL query (see examples in sidebar)
+4. Get instant predictions, stats, or refusals
+
+**Get a free Groq API key:** https://console.groq.com/key
+## 🚀 Deployment Status
+
+The FastAPI + Streamlit stack runs **locally**:
+- API: `http://127.0.0.1:8000/chat`
+- UI:  `http://localhost:8501`
+
+Cloud deployment was **optional** per the task brief. Screenshots in
+`screenshots/` demonstrate full functionality end-to-end. 
+
+Future deployment plan:
+- FastAPI → Railway / Render
+- Streamlit UI → Streamlit Cloud
 See `DEMO_SCRIPT.md` for the full 5–7 minute walkthrough. Quick version:
 
 - **Factual:** "How many players are on an AFL team?"
