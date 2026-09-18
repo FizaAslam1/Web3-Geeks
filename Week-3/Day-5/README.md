@@ -6,7 +6,8 @@
 **Week:** 3 | **Day:** 5 (Capstone)  
 **Submission Date:** 18 September 2026
 
-
+## Live Demo
+https://web3-geeks-hl8appmk4y55hslpjsuxeyu.streamlit.app/
 
 
 ## 📌 Executive Summary
