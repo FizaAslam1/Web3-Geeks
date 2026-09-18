@@ -18,7 +18,21 @@
 3. Type any AFL query (see examples in sidebar)
 4. Get instant predictions, stats, or refusals
 
-**Get a free Groq API key:** https://console.groq.com/keys
+**Get a free Groq API key:** https://console.groq.com/key
+## 🚀 Deployment Status
+
+The FastAPI + Streamlit stack runs **locally**:
+- API: `http://127.0.0.1:8000/chat`
+- UI:  `http://localhost:8501`
+
+Cloud deployment was **optional** per the task brief. Screenshots in
+`screenshots/` demonstrate full functionality end-to-end. 
+
+Future deployment plan:
+- FastAPI → Railway / Render
+- Streamlit UI → Streamlit Cloud
+
+
 ## 📌 Executive Summary
 
 This capstone ships a **production-style AFL chat + prediction assistant** that:
