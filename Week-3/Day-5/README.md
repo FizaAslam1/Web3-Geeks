@@ -7,7 +7,18 @@
 **Submission Date:** 18 September 2026
 
 ---
+## 🚀 Live Demo
 
+**URL:** [https://afl-assistant-fiza.streamlit.app](https://web3-geeks-hl8appmk4y55hslpjsuxeyu.streamlit.app/)
+
+**How to use:**
+1. Open the URL
+2. (Optional) Add your own Groq API key in the sidebar
+   — a default key is provided but may hit rate limits
+3. Type any AFL query (see examples in sidebar)
+4. Get instant predictions, stats, or refusals
+
+**Get a free Groq API key:** https://console.groq.com/keys
 ## 📌 Executive Summary
 
 This capstone ships a **production-style AFL chat + prediction assistant** that:
