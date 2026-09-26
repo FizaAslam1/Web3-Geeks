@@ -1,0 +1,8 @@
+{
+  "total_calls": 10,
+  "successful": 10,
+  "failed": 0,
+  "avg_latency_s": 0.571,
+  "max_latency_s": 3.239,
+  "avg_response_length": 213
+}

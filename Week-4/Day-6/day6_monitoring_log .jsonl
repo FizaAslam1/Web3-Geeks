@@ -1,0 +1,10 @@
+{"timestamp": "2026-09-25T17:51:37.423244", "event_type": "agent_call", "data": {"input": "Mujhe Lahore mein 5 marla house chahiye", "intent": "retrieve", "latency_s": 0.01, "error": null, "response_length": 265}}
+{"timestamp": "2026-09-25T17:51:37.432131", "event_type": "agent_call", "data": {"input": "Karachi mein 3 bedroom apartment dikhao", "intent": "retrieve", "latency_s": 0.007, "error": null, "response_length": 422}}
+{"timestamp": "2026-09-25T17:51:37.441465", "event_type": "agent_call", "data": {"input": "Islamabad mein 1 kanal house budget 5 crore", "intent": "retrieve", "latency_s": 0.008, "error": null, "response_length": 90}}
+{"timestamp": "2026-09-25T17:51:37.489884", "event_type": "agent_call", "data": {"input": "DHA mein kya options hain?", "intent": "retrieve", "latency_s": 0.046, "error": null, "response_length": 90}}
+{"timestamp": "2026-09-25T17:51:37.522970", "event_type": "agent_call", "data": {"input": "Bahria Town mein sasti property chahiye", "intent": "retrieve", "latency_s": 0.032, "error": null, "response_length": 363}}
+{"timestamp": "2026-09-25T17:51:37.531267", "event_type": "agent_call", "data": {"input": "Mujhe Lahore mein flat rent pe chahiye", "intent": "retrieve", "latency_s": 0.007, "error": null, "response_length": 237}}
+{"timestamp": "2026-09-25T17:51:37.538868", "event_type": "agent_call", "data": {"input": "Karachi mein apartment kiraye pe mil jayega?", "intent": "retrieve", "latency_s": 0.007, "error": null, "response_length": 296}}
+{"timestamp": "2026-09-25T17:51:37.545948", "event_type": "agent_call", "data": {"input": "Islamabad mein 2 bed rent kitne mein milegi?", "intent": "retrieve", "latency_s": 0.006, "error": null, "response_length": 215}}
+{"timestamp": "2026-09-25T17:51:40.785347", "event_type": "agent_call", "data": {"input": "Mujhe visit book karni hai kal ke liye", "intent": "book", "latency_s": 3.239, "error": null, "response_length": 76}}
+{"timestamp": "2026-09-25T17:51:43.136867", "event_type": "agent_call", "data": {"input": "Mera appointment schedule karna hai", "intent": "book", "latency_s": 2.35, "error": null, "response_length": 76}}

@@ -1,0 +1,6 @@
+test_id,query,retrieved_count,correctly_missed,hallucinated
+1,F-16 Islamabad mein 10 bedroom mansion chahiye,0,True,False
+2,Murree mein 100 acre farmhouse chahiye,0,True,False
+3,Multan mein 1 kanal house chahiye,0,True,False
+4,Quetta mein commercial plot chahiye,0,True,False
+5,Skardu mein luxury apartment chahiye,0,True,False

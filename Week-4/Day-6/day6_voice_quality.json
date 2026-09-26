@@ -1,0 +1,7 @@
+{
+  "status": "partially_tested",
+  "reason": "quota_preservation",
+  "day3_evidence": "3 spot-check samples + manual score 4/5",
+  "latency_measured": true,
+  "quality_manually_assessed": true
+}

@@ -1,0 +1,54 @@
+{
+  "day": 6,
+  "tasks_completed": [
+    "Evaluation suite (43 test cases)",
+    "Prompt injection testing (10 attempts)",
+    "Performance evaluation (latency, success rate, intent accuracy)",
+    "Monitoring (JSONL log + alerts)",
+    "Deployment readiness (Dockerfile, requirements, FastAPI skeleton)"
+  ],
+  "eval_suite": {
+    "total": 43,
+    "successful": 43,
+    "error_rate_pct": 0.0,
+    "intent_accuracy_pct": 100.0,
+    "excluded_ambiguous": 3,
+    "note": "3 ambiguous multi-intent test cases excluded from accuracy (1 angry with cancel, 2 complex multi-intent)"
+  },
+  "injection": {
+    "total": 10,
+    "leaks": 0,
+    "graceful_refusals": 10
+  },
+  "performance": {
+    "total_tests": 43,
+    "successful": 43,
+    "errors": 0,
+    "error_rate_pct": 0.0,
+    "avg_latency_s": 0.288,
+    "median_latency_s": 0.007,
+    "p95_latency_s": 2.291,
+    "max_latency_s": 3.208,
+    "min_latency_s": 0.003,
+    "under_2s_pct": 93.02
+  },
+  "monitoring": {
+    "total_calls": 10,
+    "successful": 10,
+    "failed": 0,
+    "avg_latency_s": 0.571,
+    "max_latency_s": 3.239,
+    "avg_response_length": 213
+  },
+  "files_created": [
+    "day6_test_results.csv",
+    "day6_injection_results.csv",
+    "day6_monitoring_log.jsonl",
+    "day6_monitoring_summary.json",
+    "Dockerfile",
+    "requirements.txt",
+    ".env.example",
+    "day7_api.py",
+    ".gitignore"
+  ]
+}
