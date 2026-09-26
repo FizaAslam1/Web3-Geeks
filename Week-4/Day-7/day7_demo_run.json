@@ -1,0 +1,27 @@
+[
+  {
+    "user": "Assalam-o-Alaikum, mujhe Lahore mein 5 marla house chahiye budget 3 crore",
+    "agent": "Walaikum Assalam sir! RealEstate Hub se Ahmed baat kar raha hoon. Bataiye, kis tarah ki property dekh rahe hain?",
+    "intent": "greeting"
+  },
+  {
+    "user": "DHA mein kya options hain?",
+    "agent": "Ji sir, ye options available hain: LUXURY LIVING | 1 KANAL DESIGNER HOUSE FOR SALE DHA PHASE 2. Located in DHA Defence Phase 2, DHA Defence, Islamabad. Size: 1 Kanal, Beds: 6.0, Baths: 6.0, Price: PKR 8.9 Crore. | DHA Phase 2 Luxury Move-In Ready 1 Kanal Designer Home!. Located in DHA Defence Phase 2, DHA Defence, Islamabad. Size: 1 Kanal, Beds: 5.0, Baths: 6.0, Price: PKR 13.7 Crore.. Kya aap visit karna chahenge?",
+    "intent": "retrieve"
+  },
+  {
+    "user": "Theek hai, visit book kar dijiye kal shaam 5 baje",
+    "agent": "Ji sir, Sunday 03:00 PM ka visit confirm ho gaya. Aap ko email aa jaye gi.",
+    "intent": "book"
+  },
+  {
+    "user": "Meri appointment reschedule karni hai",
+    "agent": "Ji sir, appointment reschedule ho gayi — Sunday 05:00 PM.",
+    "intent": "reschedule"
+  },
+  {
+    "user": "Actually cancel hi kar dein",
+    "agent": "Walaikum Assalam sir! RealEstate Hub se Ahmed baat kar raha hoon. Bataiye, kis tarah ki property dekh rahe hain?",
+    "intent": "greeting"
+  }
+]
