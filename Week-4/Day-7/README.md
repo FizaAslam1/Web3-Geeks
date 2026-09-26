@@ -1,5 +1,8 @@
 ## Day 7 — Deployment & Live Demo
 
+**Executive Report (stakeholder-facing):** [executive_report.pdf](./executive_report.pdf)
+Covers objectives, architecture, full evaluation results, security testing, known limitations, and future roadmap.
+
 **Live voice call demo video:** [Demo of Real Estate agent.mp4](https://drive.google.com/file/d/1-3PijemkKqoqJV1trsITn_QRqeFpo5lz/view?usp=sharing)
 
 The demo covers:
@@ -19,10 +22,11 @@ The demo covers:
 | `day7_api.py` | FastAPI backend — `/chat`, `/health`, `/metrics` |
 | `streamlit_app.py` | Live voice call UI — mic input, Whisper STT, autoplay TTS |
 | `Dockerfile`, `requirements.txt` | Production deployment |
+| `executive_report.pdf` | Stakeholder-facing executive report (objectives, architecture, evaluation, limitations, roadmap) |
 | `system_architecture.md`, `api_documentation.md` | Technical docs |
 | `user_guide.md`, `admin_guide.md`, `maintenance_guide.md`, `troubleshooting_guide.md` | Executive documentation |
 | `monitoring_maintenance_plan.md` | Monitoring thresholds, refresh schedule, backup plan |
-| `demo_script.md` | stakeholder demo script |
+| `demo_script.md` |  stakeholder demo script |
 | `future_enhancements.md` | Roadmap |
 | `day7_demo_run.json`, `day7_summary.json` | Automated end-to-end test run + final checklist |
 
