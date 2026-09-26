@@ -22,7 +22,7 @@ The demo covers:
 | `system_architecture.md`, `api_documentation.md` | Technical docs |
 | `user_guide.md`, `admin_guide.md`, `maintenance_guide.md`, `troubleshooting_guide.md` | Executive documentation |
 | `monitoring_maintenance_plan.md` | Monitoring thresholds, refresh schedule, backup plan |
-| `demo_script.md` | 10-minute stakeholder demo script |
+| `demo_script.md` | stakeholder demo script |
 | `future_enhancements.md` | Roadmap |
 | `day7_demo_run.json`, `day7_summary.json` | Automated end-to-end test run + final checklist |
 
