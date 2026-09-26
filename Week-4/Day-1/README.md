@@ -1,58 +1,36 @@
-# Day 1 — Foundations of AI Voice Agents and Conversation Design
+# Day 1 — Foundations of AI Voice Agents & Conversation Design
 
-This day lays the groundwork for a production-grade AI voice agent for a real-estate outreach use case in UrduLish. The focus is on designing the system architecture, conversation logic, tone and persona, and the voice stack before moving into implementation.
+Project: Production-Grade AI Voice Agent for Real Estate (UrduLish)
 
-## Goal
+## Files
 
-Build a strong foundation for an AI voice assistant that can:
+| File | Task | Status |
+|---|---|---|
+| `01_architecture_research.md` | Task 1: Architecture research, system diagram, workflow diagram | Complete |
+| `02_conversation_flows.md` | Task 2: 7 required flowcharts + seller flow + fallback flow | Complete |
+| `03_urdulish_persona.md` | Task 3: Persona, phrases, objection handling | Complete |
+| `04_fish_audio_vs_elevenlabs.md` | Task 4: Comparison table, listening test, **ElevenLabs selected** | Complete |
+| `05_system_prompt.md` | Task 5: Production system prompt | Complete |
+| `06_free_tier_tech_stack.md` | Supporting: free-tier stack and limits | Complete |
+| `07_voice_provider_decision.md` | Supporting: one-page decision record | Complete |
 
-- handle outbound or inbound real-estate calls
-- switch naturally between Urdu and English (UrduLish)
-- qualify leads and book appointments
-- respond with clear fallback behavior when a caller is silent, unclear, or not interested
-- operate with a practical, cost-aware technical stack
+## What's inside
 
-## What we covered
+### Task 1 — Architecture Research
+Full pipeline documented: Telephony/Audio Input → VAD & Barge-in → Speech-to-Text (Whisper, local) → LLM Reasoning (Gemini 3.5 Flash-Lite) → Retrieval (SQL + ChromaDB) → Tool Calling → Memory (short-term + long-term) → Text-to-Speech (ElevenLabs) → Workflow Orchestration (LangGraph + n8n). Includes a latency budget (target: under 2 seconds, end-of-speech to first audio).
 
-- Architecture research for a modular AI voice calling system
-- Conversation flow design for leads, seller conversations, and fallback branches
-- Persona definition and objection handling in UrduLish
-- Voice provider comparison and listening tests
-- Production-ready system prompt design
-- Free-tier technical stack recommendations and constraints
+### Task 2 — Conversation Flow Design
+9 flowcharts total: the 7 required (buyer, rental, commercial, investment, returning customer, rescheduling, cancellation), plus 2 extra added to cover the Day 6 test suite — a seller flow and a shared fallback flow (unclear speech, off-topic, silence, angry callers, prompt injection, "are you an AI?").
 
-## Deliverables
+### Task 3 — UrduLish Persona Engineering
+Persona: "Ahmed", a warm, professional, patient, persuasive Pakistani property consultant. Golden rules: never translate directly from English, never state a fact outside the knowledge base, short sentences, always end with a question or next step. Includes greeting variations, confirmations, hesitation phrases, and objection-handling scripts for price, trust, location, investment, builder, and maintenance concerns — each with a fallback line for when data isn't available.
 
-| File | Focus |
-|---|---|
-| `00_README.md` | Overview of Day 1 project outcomes and decisions |
-| `01_architecture_research.md` | Architecture research, workflow design, and system diagram |
-| `02_conversation_flows.md` | Core call flows, edge cases, and fallback logic |
-| `03_urdulish_persona.md` | Agent persona, tone, phrases, objection handling |
-| `04_fish_audio_vs_elevenlabs.md` | Voice provider comparison and listening test results |
-| `05_system_prompt.md` | Production system prompt for the agent |
-| `06_free_tier_tech_stack.md` | Low-cost stack and platform limits |
-| `07_voice_provider_decision.md` | Decision record explaining the selected TTS provider |
-| `diagrams/` | Architecture and conversation diagrams |
+### Task 4 — Fish Audio vs ElevenLabs Evaluation
+A real listening test (6 UrduLish sentences, scored on pronunciation, naturalness, code-switching, and numbers/dates) found **ElevenLabs scored 4.0/5 average vs Fish Audio's 2.5/5**. ElevenLabs was selected despite being reported as 3–4× more expensive per minute and having higher baseline latency (~500ms vs <200ms) — the trade-off is documented and revisited in Day 7's executive report.
 
-## Key decision
+### Task 5 — System Prompt
+Production system prompt covering scope, goal priority order, voice/style rules, spoken-output formatting (no markdown, numbers written as spoken), grounding guardrails, security guardrails (prompt-injection resistance, no fake bookings), AI-disclosure honesty rule, persuasion rules, appointment booking policy, and escalation rules.
 
-The Day 1 evaluation concluded that ElevenLabs was the best TTS choice for this project. It performed better than Fish Audio on Urdu pronunciation and code-switching quality, which is essential for a fluid UrduLish voice experience.
+## Key decision: Voice provider
 
-This decision informs the later implementation and evaluation work in the project timeline.
-
-## Recommended order
-
-To review the work in sequence, start with:
-
-1. `01_architecture_research.md`
-2. `02_conversation_flows.md`
-3. `03_urdulish_persona.md`
-4. `04_fish_audio_vs_elevenlabs.md`
-5. `05_system_prompt.md`
-6. `06_free_tier_tech_stack.md`
-7. `07_voice_provider_decision.md`
-
-## Outcome
-
-Day 1 establishes the product and conversation foundation for the AI voice agent, including the data model, stack decisions, and user-facing behavior. It serves as the blueprint for the implementation work that follows in later days.
+**ElevenLabs was selected as the TTS provider** after Fish Audio's Urdu pronunciation and UrduLish code-switching scored poorly on real-estate vocabulary ("marla", "kanal", "crore", "lakh"). This decision affects Day 3 (voice pipeline), Day 6 (evaluation), and Day 7 (demo). Full test results in `04_fish_audio_vs_elevenlabs.md` and `07_voice_provider_decision.md`.
