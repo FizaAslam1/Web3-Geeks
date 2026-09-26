@@ -1,0 +1,21 @@
+question,answer,grounded,expected_route,actual_route,route_correct
+What is the security deposit for renting a property?,"Q: What is required to rent a property? A: Renting typically requires a security deposit (usually equal to 1-2 months' rent), advance rent payment, a ",True,vector,vector,True
+How long does the registry take?,"Q: How long does the registry process take? A: Registry (transfer of ownership) usually takes 2 to 6 weeks after full payment, depending on the housin",True,vector,vector,True
+Is bank financing available?,"Q: Is bank financing or home loan available? A: Many banks in Pakistan offer home financing (e.g. through Meezan Bank, HBL, UBL), typically covering 6",True,vector,vector,True
+What documents are needed to buy?,"Q: What documents are required to buy a property? A: You typically need a valid CNIC, proof of income or bank statement (if applying for financing), a",True,vector,vector,True
+How do I book a property?,"Q: How do I book a property? A: A property is booked by paying a token/booking amount (usually 10-25% of the total price) to confirm your interest, af",True,vector,vector,True
+Is the security deposit refundable?,"Q: Is the security deposit refundable? A: Yes, the security deposit is refundable at the end of the tenancy, provided there is no damage to the proper",True,vector,vector,True
+Can rent be negotiated?,Q: Can the rent be negotiated? A: Rent is often somewhat negotiable depending on the landlord and how long the property has been vacant — feel free to,True,vector,vector,True
+What is the expected rental yield?,"Q: What is the expected rental yield in this area? A: Rental yields vary by city and society, generally ranging between 3-6% annually in most urban ar",True,vector,vector,True
+Who handles maintenance after possession?,Q: Who handles maintenance after possession? A: Maintenance responsibility depends on the society — most housing authorities and private societies cha,True,vector,vector,True
+What is the monthly maintenance charge?,Q: What is the monthly maintenance charge? A: Maintenance charges vary by society and property size — this can be confirmed for the specific property ,True,vector,vector,True
+How do I reschedule a visit?,Q: How do I reschedule or cancel a visit? A: A scheduled visit can be rescheduled or cancelled anytime by informing us in advance — we'll update the c,True,vector,vector,True
+Will an agent be available to show the property?,"Q: Will someone be available to show me the property in person? A: Yes, a dedicated agent is assigned to accompany you during the property visit at th",True,vector,vector,True
+Are there hidden charges?,"Q: Are there any hidden charges besides the property price? A: Additional costs typically include registration/transfer fee, stamp duty, possession ch",True,vector,vector,True
+How can I verify a property is genuine?,Q: How do I know this property is genuine and not a scam? A: Every property listed is verified against the housing authority's records before being sh,True,vector,vector,True
+Is the project legally approved?,"Q: Is the society/project legally approved? A: Legal approval status (NOC, development approval) differs by project — this can be confirmed for the sp",True,vector,vector,True
+Can a lawyer review the documents?,"Q: Can I get a lawyer to review the documents? A: Yes, you are always welcome to have your own lawyer review the sale agreement and title documents be",True,vector,vector,True
+What payment plans are available?,Q: What payment plans are available? A: Payment plans vary by project — most offer a down payment (usually 10-30%) followed by monthly or quarterly in,True,vector,vector,True
+What happens if I miss an installment?,"Q: What happens if I miss an installment? A: Missing an installment usually results in a late payment fee, and repeated missed payments can lead to ca",True,vector,vector,True
+Is this a good time to invest?,Q: Is this a good time to invest or should I wait? A: Market timing depends on your financial goals and the specific area's trends — property prices i,True,vector,vector,True
+Can I visit before booking?,"Q: Can I visit the property before booking? A: Yes, a property visit can always be scheduled before booking so you can inspect the property, verify it",True,vector,vector,True
