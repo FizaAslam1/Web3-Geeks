@@ -1,0 +1,7 @@
+test_id,input,intent,response,steps
+1,Mujhe Lahore mein 5 marla house chahiye ,retrieve,"Ji sir, ye options available hain: ONE BED LUXURIOUS FURNISH",2
+2,Mujhe visit book karni hai kal ke liye,book,"Ji sir, Saturday 03:00 PM ka visit confirm ho gaya. Aap ko e",2
+3,Aap AI ho ya insaan?,ai_disclosure,"Ji sir, main ek AI assistant hoon jo RealEstate Hub ki taraf",2
+4,Meri appointment reschedule karni hai,reschedule,"Ji sir, appointment reschedule ho gayi — Saturday 05:00 PM.",2
+5,Meri appointment cancel kar do,cancel,"Ji sir, appointment cancel kar di gayi. Koi aur cheez?",2
+6,Cricket match dekha kal?,off_topic,"Ji sir, main yahan property search mein help ke liye hoon. B",2

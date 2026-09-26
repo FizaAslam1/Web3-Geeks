@@ -1,0 +1,558 @@
+[
+  {
+    "test_id": 1,
+    "user_input": "Mujhe Lahore mein 5 marla house chahiye budget 3 crore",
+    "intent": "retrieve",
+    "response": "Ji sir, ye options available hain: ONE BED LUXURIOUS FURNISHED APARTMENT FOR SALE AT BAHRIA TOWN LAHORE in Lahore \u2014 PKR 45 Lakh (ID missing) | A Beautiful Dream House Hot Location Brand New House in Lahore \u2014 PKR 57 Lakh (ID missing). Kya aap visit karna chahenge?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:05:13.755228",
+        "intent": "retrieve",
+        "input": "Mujhe Lahore mein 5 marla house chahiye budget 3 crore"
+      },
+      {
+        "node": "retrieve",
+        "timestamp": "2026-09-25T14:05:13.880662",
+        "filters": {
+          "city": "Lahore",
+          "max_price": 30000000
+        },
+        "results": 3,
+        "slots": {
+          "budget": 30000000,
+          "city": "Lahore",
+          "area": null,
+          "beds": null,
+          "size": 5.0,
+          "size_unit": "marla"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 2,
+    "user_input": "Mujhe visit book karni hai kal ke liye",
+    "intent": "book",
+    "response": "Ji sir, Saturday 03:00 PM ka visit confirm ho gaya. Aap ko email aa jaye gi.",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:05:23.686399",
+        "intent": "book",
+        "input": "Mujhe visit book karni hai kal ke liye"
+      },
+      {
+        "node": "book",
+        "timestamp": "2026-09-25T14:05:28.788742",
+        "success": true,
+        "details": {
+          "appointment_id": 6,
+          "calendar_event_id": "qifu3lk01t1t528ust5lcbl6rs",
+          "calendar_link": "https://www.google.com/calendar/event?eid=cWlmdTNsazAxdDF0NTI4dXN0NWxjYmw2cnMgY2ZpemE4MTgwQG0",
+          "email_message_id": "1a0d7cfd6ab768fe",
+          "start": "2026-09-26T15:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 3,
+    "user_input": "Aap AI ho ya insaan?",
+    "intent": "ai_disclosure",
+    "response": "Ji sir, main ek AI assistant hoon jo RealEstate Hub ki taraf se help kar raha hoon. Kaunsi property dekhni hai?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:05:33.884154",
+        "intent": "ai_disclosure",
+        "input": "Aap AI ho ya insaan?"
+      },
+      {
+        "node": "ai_disclosure",
+        "timestamp": "2026-09-25T14:05:33.885091"
+      }
+    ]
+  },
+  {
+    "test_id": 4,
+    "user_input": "Meri appointment reschedule karni hai",
+    "intent": "book",
+    "response": "Ji sir, Saturday 03:00 PM ka visit confirm ho gaya. Aap ko email aa jaye gi.",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:05:48.208282",
+        "intent": "book",
+        "input": "Meri appointment reschedule karni hai"
+      },
+      {
+        "node": "book",
+        "timestamp": "2026-09-25T14:05:50.485249",
+        "success": true,
+        "details": {
+          "appointment_id": 7,
+          "calendar_event_id": "cavdumct77ss6kfgv9tt469dtg",
+          "calendar_link": "https://www.google.com/calendar/event?eid=Y2F2ZHVtY3Q3N3NzNmtmZ3Y5dHQ0NjlkdGcgY2ZpemE4MTgwQG0",
+          "email_message_id": "1a0d7d02a7d30ca3",
+          "start": "2026-09-26T15:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 5,
+    "user_input": "Meri appointment cancel kar do",
+    "intent": "book",
+    "response": "Ji sir, Saturday 03:00 PM ka visit confirm ho gaya. Aap ko email aa jaye gi.",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:06:01.782914",
+        "intent": "book",
+        "input": "Meri appointment cancel kar do"
+      },
+      {
+        "node": "book",
+        "timestamp": "2026-09-25T14:06:04.482359",
+        "success": true,
+        "details": {
+          "appointment_id": 8,
+          "calendar_event_id": "70pk8qd2pk5ho2243pla1jq440",
+          "calendar_link": "https://www.google.com/calendar/event?eid=NzBwazhxZDJwazVobzIyNDNwbGExanE0NDAgY2ZpemE4MTgwQG0",
+          "email_message_id": "1a0d7d0626ff0b7d",
+          "start": "2026-09-26T15:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 6,
+    "user_input": "Cricket match dekha kal?",
+    "intent": "off_topic",
+    "response": "Ji sir, main yahan property search mein help ke liye hoon. Bataiye kaunsi property dekhni hai?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:06:36.080597",
+        "intent": "off_topic",
+        "input": "Cricket match dekha kal?"
+      },
+      {
+        "node": "off_topic",
+        "timestamp": "2026-09-25T14:06:36.081621"
+      }
+    ]
+  },
+  {
+    "test_id": 1,
+    "user_input": "Mujhe Lahore mein 5 marla house chahiye budget 3 crore",
+    "intent": "retrieve",
+    "response": "Ji sir, ye options available hain: ONE BED LUXURIOUS FURNISHED APARTMENT FOR SALE AT BAHRIA TOWN LAHORE in Lahore \u2014 PKR 45 Lakh (ID missing) | A Beautiful Dream House Hot Location Brand New House in Lahore \u2014 PKR 57 Lakh (ID missing). Kya aap visit karna chahenge?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:13:28.592374",
+        "intent": "retrieve",
+        "input": "Mujhe Lahore mein 5 marla house chahiye budget 3 crore"
+      },
+      {
+        "node": "retrieve",
+        "timestamp": "2026-09-25T14:13:28.603875",
+        "filters": {
+          "city": "Lahore",
+          "max_price": 30000000
+        },
+        "results": 3,
+        "slots": {
+          "budget": 30000000,
+          "city": "Lahore",
+          "area": null,
+          "beds": null,
+          "size": 5.0,
+          "size_unit": "marla"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 2,
+    "user_input": "Mujhe visit book karni hai kal ke liye",
+    "intent": "book",
+    "response": "Ji sir, Saturday 03:00 PM ka visit confirm ho gaya. Aap ko email aa jaye gi.",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:13:33.478109",
+        "intent": "book",
+        "input": "Mujhe visit book karni hai kal ke liye"
+      },
+      {
+        "node": "book",
+        "timestamp": "2026-09-25T14:13:36.958795",
+        "success": true,
+        "details": {
+          "appointment_id": 9,
+          "calendar_event_id": "5arslg1b47gnlod51u9vdv2s64",
+          "calendar_link": "https://www.google.com/calendar/event?eid=NWFyc2xnMWI0N2dubG9kNTF1OXZkdjJzNjQgY2ZpemE4MTgwQG0",
+          "email_message_id": "1a0d7d74b552ff33",
+          "start": "2026-09-26T15:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 3,
+    "user_input": "Aap AI ho ya insaan?",
+    "intent": "ai_disclosure",
+    "response": "Ji sir, main ek AI assistant hoon jo RealEstate Hub ki taraf se help kar raha hoon. Kaunsi property dekhni hai?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:13:38.964418",
+        "intent": "ai_disclosure",
+        "input": "Aap AI ho ya insaan?"
+      },
+      {
+        "node": "ai_disclosure",
+        "timestamp": "2026-09-25T14:13:38.965245"
+      }
+    ]
+  },
+  {
+    "test_id": 4,
+    "user_input": "Meri appointment reschedule karni hai",
+    "intent": "book",
+    "response": "Ji sir, Saturday 03:00 PM ka visit confirm ho gaya. Aap ko email aa jaye gi.",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:13:43.267798",
+        "intent": "book",
+        "input": "Meri appointment reschedule karni hai"
+      },
+      {
+        "node": "book",
+        "timestamp": "2026-09-25T14:13:45.613938",
+        "success": true,
+        "details": {
+          "appointment_id": 10,
+          "calendar_event_id": "7epreha7t7rr3bco4gnasnh13s",
+          "calendar_link": "https://www.google.com/calendar/event?eid=N2VwcmVoYTd0N3JyM2JjbzRnbmFzbmgxM3MgY2ZpemE4MTgwQG0",
+          "email_message_id": "1a0d7d76b94bfd23",
+          "start": "2026-09-26T15:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 5,
+    "user_input": "Meri appointment cancel kar do",
+    "intent": "book",
+    "response": "Ji sir, Saturday 03:00 PM ka visit confirm ho gaya. Aap ko email aa jaye gi.",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:13:49.340437",
+        "intent": "book",
+        "input": "Meri appointment cancel kar do"
+      },
+      {
+        "node": "book",
+        "timestamp": "2026-09-25T14:13:51.135999",
+        "success": true,
+        "details": {
+          "appointment_id": 11,
+          "calendar_event_id": "369gejkeintinlldo0n8plcb2k",
+          "calendar_link": "https://www.google.com/calendar/event?eid=MzY5Z2Vqa2VpbnRpbmxsZG8wbjhwbGNiMmsgY2ZpemE4MTgwQG0",
+          "email_message_id": "1a0d7d781034434a",
+          "start": "2026-09-26T15:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 6,
+    "user_input": "Cricket match dekha kal?",
+    "intent": "off_topic",
+    "response": "Ji sir, main yahan property search mein help ke liye hoon. Bataiye kaunsi property dekhni hai?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:13:53.430350",
+        "intent": "off_topic",
+        "input": "Cricket match dekha kal?"
+      },
+      {
+        "node": "off_topic",
+        "timestamp": "2026-09-25T14:13:53.431390"
+      }
+    ]
+  },
+  {
+    "test_id": 1,
+    "user_input": "Mujhe Lahore mein 5 marla house chahiye budget 3 crore",
+    "intent": "retrieve",
+    "response": "Ji sir, ye options available hain: ONE BED LUXURIOUS FURNISHED APARTMENT FOR SALE AT BAHRIA TOWN LAHORE in Lahore \u2014 PKR 45 Lakh (ID missing) | A Beautiful Dream House Hot Location Brand New House in Lahore \u2014 PKR 57 Lakh (ID missing). Kya aap visit karna chahenge?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:16:04.940705",
+        "intent": "retrieve",
+        "input": "Mujhe Lahore mein 5 marla house chahiye budget 3 crore"
+      },
+      {
+        "node": "retrieve",
+        "timestamp": "2026-09-25T14:16:04.947709",
+        "filters": {
+          "city": "Lahore",
+          "max_price": 30000000
+        },
+        "results": 3,
+        "slots": {
+          "budget": 30000000,
+          "city": "Lahore",
+          "area": null,
+          "beds": null,
+          "size": 5.0,
+          "size_unit": "marla"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 2,
+    "user_input": "Mujhe visit book karni hai kal ke liye",
+    "intent": "book",
+    "response": "Ji sir, Saturday 03:00 PM ka visit confirm ho gaya. Aap ko email aa jaye gi.",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:16:04.976239",
+        "intent": "book",
+        "input": "Mujhe visit book karni hai kal ke liye"
+      },
+      {
+        "node": "book",
+        "timestamp": "2026-09-25T14:16:06.901021",
+        "success": true,
+        "details": {
+          "appointment_id": 12,
+          "calendar_event_id": "cq8a5639pbhf8mg6at8tmkaiak",
+          "calendar_link": "https://www.google.com/calendar/event?eid=Y3E4YTU2MzlwYmhmOG1nNmF0OHRta2FpYWsgY2ZpemE4MTgwQG0",
+          "email_message_id": "1a0d7d993507a199",
+          "start": "2026-09-26T15:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 3,
+    "user_input": "Aap AI ho ya insaan?",
+    "intent": "ai_disclosure",
+    "response": "Ji sir, main ek AI assistant hoon jo RealEstate Hub ki taraf se help kar raha hoon. Kaunsi property dekhni hai?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:16:06.928959",
+        "intent": "ai_disclosure",
+        "input": "Aap AI ho ya insaan?"
+      },
+      {
+        "node": "ai_disclosure",
+        "timestamp": "2026-09-25T14:16:06.929591"
+      }
+    ]
+  },
+  {
+    "test_id": 4,
+    "user_input": "Meri appointment reschedule karni hai",
+    "intent": "reschedule",
+    "response": "Ji sir, appointment reschedule ho gayi \u2014 Saturday 05:00 PM.",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:16:06.961914",
+        "intent": "reschedule",
+        "input": "Meri appointment reschedule karni hai"
+      },
+      {
+        "node": "reschedule",
+        "timestamp": "2026-09-25T14:16:09.252072",
+        "success": true,
+        "appt_id": 12
+      }
+    ]
+  },
+  {
+    "test_id": 5,
+    "user_input": "Meri appointment cancel kar do",
+    "intent": "cancel",
+    "response": "Ji sir, appointment cancel kar di gayi. Koi aur cheez?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:16:13.439395",
+        "intent": "cancel",
+        "input": "Meri appointment cancel kar do"
+      },
+      {
+        "node": "cancel",
+        "timestamp": "2026-09-25T14:16:14.716435",
+        "success": true,
+        "appt_id": 12
+      }
+    ]
+  },
+  {
+    "test_id": 6,
+    "user_input": "Cricket match dekha kal?",
+    "intent": "off_topic",
+    "response": "Ji sir, main yahan property search mein help ke liye hoon. Bataiye kaunsi property dekhni hai?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:16:16.006640",
+        "intent": "off_topic",
+        "input": "Cricket match dekha kal?"
+      },
+      {
+        "node": "off_topic",
+        "timestamp": "2026-09-25T14:16:16.007630"
+      }
+    ]
+  },
+  {
+    "test_id": 1,
+    "user_input": "Mujhe Lahore mein 5 marla house chahiye budget 3 crore",
+    "intent": "retrieve",
+    "response": "Ji sir, ye options available hain: ONE BED LUXURIOUS FURNISHED APARTMENT FOR SALE AT BAHRIA TOWN LAHORE in Lahore \u2014 PKR 45 Lakh | A Beautiful Dream House Hot Location Brand New House in Lahore \u2014 PKR 57 Lakh. Kya aap visit karna chahenge?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:17:50.925967",
+        "intent": "retrieve",
+        "input": "Mujhe Lahore mein 5 marla house chahiye budget 3 crore"
+      },
+      {
+        "node": "retrieve",
+        "timestamp": "2026-09-25T14:17:50.930059",
+        "filters": {
+          "city": "Lahore",
+          "max_price": 30000000
+        },
+        "results": 3,
+        "slots": {
+          "budget": 30000000,
+          "city": "Lahore",
+          "area": null,
+          "beds": null,
+          "size": 5.0,
+          "size_unit": "marla"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 2,
+    "user_input": "Mujhe visit book karni hai kal ke liye",
+    "intent": "book",
+    "response": "Ji sir, Saturday 03:00 PM ka visit confirm ho gaya. Aap ko email aa jaye gi.",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:17:50.965560",
+        "intent": "book",
+        "input": "Mujhe visit book karni hai kal ke liye"
+      },
+      {
+        "node": "book",
+        "timestamp": "2026-09-25T14:17:53.344392",
+        "success": true,
+        "details": {
+          "appointment_id": 13,
+          "calendar_event_id": "8106rb8njdj97g94nubk5tduoo",
+          "calendar_link": "https://www.google.com/calendar/event?eid=ODEwNnJiOG5qZGo5N2c5NG51Yms1dGR1b28gY2ZpemE4MTgwQG0",
+          "email_message_id": "1a0d7db33b114215",
+          "start": "2026-09-26T15:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "test_id": 3,
+    "user_input": "Aap AI ho ya insaan?",
+    "intent": "ai_disclosure",
+    "response": "Ji sir, main ek AI assistant hoon jo RealEstate Hub ki taraf se help kar raha hoon. Kaunsi property dekhni hai?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:17:53.367560",
+        "intent": "ai_disclosure",
+        "input": "Aap AI ho ya insaan?"
+      },
+      {
+        "node": "ai_disclosure",
+        "timestamp": "2026-09-25T14:17:53.368327"
+      }
+    ]
+  },
+  {
+    "test_id": 4,
+    "user_input": "Meri appointment reschedule karni hai",
+    "intent": "reschedule",
+    "response": "Ji sir, appointment reschedule ho gayi \u2014 Saturday 05:00 PM.",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:17:53.397247",
+        "intent": "reschedule",
+        "input": "Meri appointment reschedule karni hai"
+      },
+      {
+        "node": "reschedule",
+        "timestamp": "2026-09-25T14:17:55.194685",
+        "success": true,
+        "appt_id": 13
+      }
+    ]
+  },
+  {
+    "test_id": 5,
+    "user_input": "Meri appointment cancel kar do",
+    "intent": "cancel",
+    "response": "Ji sir, appointment cancel kar di gayi. Koi aur cheez?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:17:55.217880",
+        "intent": "cancel",
+        "input": "Meri appointment cancel kar do"
+      },
+      {
+        "node": "cancel",
+        "timestamp": "2026-09-25T14:17:56.712642",
+        "success": true,
+        "appt_id": 13
+      }
+    ]
+  },
+  {
+    "test_id": 6,
+    "user_input": "Cricket match dekha kal?",
+    "intent": "off_topic",
+    "response": "Ji sir, main yahan property search mein help ke liye hoon. Bataiye kaunsi property dekhni hai?",
+    "trace": [
+      {
+        "node": "intent",
+        "timestamp": "2026-09-25T14:17:56.735072",
+        "intent": "off_topic",
+        "input": "Cricket match dekha kal?"
+      },
+      {
+        "node": "off_topic",
+        "timestamp": "2026-09-25T14:17:56.735660"
+      }
+    ]
+  }
+]
