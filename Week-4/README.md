@@ -237,6 +237,7 @@ Week-4/
     ├── demo_script.md
     ├── future_enhancements.md
     ├── day7_demo_run.json
+    ├── knowledge_base.db
     └── day7_summary.json
 ```
 
