@@ -1,0 +1,6 @@
+conv_id,scenario,naturalness,persuasiveness,fluency,latency_sec,flow,notes
+1,Buyer — price concern,4,4,4,1.8,4,
+2,Rental,4,3,4,1.7,4,
+3,Investment,4,4,5,1.9,4,
+4,Reschedule,5,4,5,1.6,5,
+5,Off-topic + AI,4,3,4,1.8,3,AI disclosure handled well

@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "scenario": "Buyer inquiry — price concern",
+    "turns": [
+      {
+        "user": "Assalam-o-Alaikum, mujhe Lahore mein 5 marla house chahiye.",
+        "bot": "Walaikum Assalam, sir! Bilkul, RealEstate Hub mein aap ko Lahore mein 5 marla ke options mil jayein ge. Hamaray paas 1.05 Crore se lekar 1.5 Crore tak ke houses available hain. Kia aap ready-to-move dekh rahay hain ya installment plan wala?",
+        "total_s": 2.314
+      },
+      {
+        "user": "Budget 2 crore hai, is mein kya milega?",
+        "bot": "Ji sir, hamaray paas 2 crore ke budget mein Lahore mein 5 marla ke 1.05 Crore, 1.15 Crore aur 1.5 Crore tak ke houses available hain. Kia aap in mein se kisi option ki details sunna pasand karein ge?",
+        "total_s": 1.375
+      },
+      {
+        "user": "Thoda mehnga lag raha hai, koi sasti option?",
+        "bot": "Acha sir, agar aapko yeh zyada lag rahay hain, toh hamaray paas Lahore mein DHA 11 Rahbar Sector 2 mein 5 Marla ka ek brand new ultra modern design house for rent available hai jis ki price PKR 2.6 Crore hai. Kia aap rent wala option dekhna pasand karein ge?",
+        "total_s": 1.352
+      },
+      {
+        "user": "Theek hai, visit kab kar sakte hain?",
+        "bot": "Ji sir, is ka visit hum kisi bhi din schedule kar sakte hain. Aap batayein, kis din aap ka aana ho ga taake main appointment fix kar sakoon?",
+        "total_s": 1.523
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "scenario": "Rental inquiry",
+    "turns": [
+      {
+        "user": "Mujhe Karachi mein 2 bedroom apartment rent pe chahiye.",
+        "bot": "Acha sir, hamare paas rent ke liye apartments filhal available nahi hain, lekin 2 bed flats sale ke liye hain. Kya aap buy karne mein interested hain?",
+        "total_s": 0.953
+      },
+      {
+        "user": "Budget 80,000 monthly hai.",
+        "bot": "Acha sir, hamare paas 80,000 monthly rent ke liye koi option filhal available nahi hai. Lekin agar aap purchase karna chahein, toh 65 Lakh se 80 Lakh tak ke 2 bed flats sale ke liye available hain. Kya main details share karoon?",
+        "total_s": 0.969
+      },
+      {
+        "user": "Security deposit kitna hoga?",
+        "bot": "Ji sir, kyunke hamare paas filhal rent ke liye properties available nahi hain, is liye security deposit ki details mere paas nahi hain. Kya aap sale wali properties ke baare mein kuch poochna chahenge?",
+        "total_s": 1.162
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "scenario": "Investment inquiry",
+    "turns": [
+      {
+        "user": "DHA Islamabad mein investment karni hai.",
+        "bot": "Acha sir, bilkul! RealEstate Hub mein aap ka welcome hai. Hamare paas DHA Phase 2 Islamabad mein 1 Kanal aur 10 Marla ke ghar available hain, jin ki prices 8.25 Crore se 13.9 Crore tak hain. Aap ko kis size ka property dekhna hai?",
+        "total_s": 1.081
+      },
+      {
+        "user": "Rental income chahiye, resale nahi.",
+        "bot": "Acha sir, bilkul samajh gaya. Rental income ke liye hamare paas Bahria Enclave mein 2 bed Cube Apartment available hai, jo 1558 sq feet ka hai aur is ki price 2.05 Crore hai. Kya aap is ki mazeed details sunna chahenge?",
+        "total_s": 1.35
+      },
+      {
+        "user": "Payment plan kya hai?",
+        "bot": "Ji sir, is apartment ka payment plan flexible hai. Kya main details WhatsApp kar doon?",
+        "total_s": 1.335
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "scenario": "Reschedule appointment",
+    "turns": [
+      {
+        "user": "Meri kal ki visit thi, reschedule karni hai.",
+        "bot": "Ji sir, acha hua aap ne inform kar diya. Aap apni visit kis din aur kis time reschedule karna chahte hain?",
+        "total_s": 1.148
+      },
+      {
+        "user": "Kal shaam 5 baje kar do.",
+        "bot": "Bilkul sir, aap ki kal shaam 5 baje ki visit reschedule ho gayi hai. Kya main aap ko location ka confirm message bhej doon?",
+        "total_s": 1.228
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "scenario": "Off-topic + AI disclosure",
+    "turns": [
+      {
+        "user": "Aap real insaan ho ya AI?",
+        "bot": "Ji sir, main ek AI hoon jo aap ki help ke liye yahan hoon. RealEstate Hub mein aap ko kis property ke baare mein maloomat chahiye?",
+        "total_s": 1.306
+      },
+      {
+        "user": "Cricket match dekha kal?",
+        "bot": "Ji sir, cricket match ke baray mein tou mujhe itni maloomat nahi hai. RealEstate Hub mein aap ko kisi property ke baare mein maloomat chahiye?",
+        "total_s": 1.05
+      },
+      {
+        "user": "Theek hai, ek 3 bedroom chahiye Lahore mein.",
+        "bot": "Acha sir, hamare paas Lahore mein kuch houses available hain jo 57 lakh, 97 lakh aur 1.05 crore ke hain. Kya aap in mein se kisi price range ke baray mein mazeed jaan'na chahenge?",
+        "total_s": 1.008
+      }
+    ]
+  }
+]

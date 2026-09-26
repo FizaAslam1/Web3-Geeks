@@ -1,0 +1,11 @@
+query,retrieval_s,llm_s,total_s
+What is required to rent a property?,0.035,1.1,1.135
+5 marla house under 3 crore in Lahore,0.003,1.186,1.189
+Is bank financing available?,0.026,1.189,1.215
+Show me DHA properties under 5 crore,0.004,1.526,1.531
+What is the security deposit?,0.02,1.208,1.228
+3 bedroom apartment in Karachi,0.002,1.247,1.249
+Can I reschedule my visit?,0.019,1.192,1.211
+How do I book a property?,0.023,1.512,1.535
+Show me commercial property in Islamabad,0.039,1.087,1.126
+What are the payment plans?,0.024,1.532,1.556
